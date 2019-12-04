@@ -132,7 +132,7 @@ const pushTweet = (payload) => {
 						"action": {
 							"type": "uri",
 							"label": "Lihat Cuitan",
-							"uri": "https://twitter.com/A_AlmaJKT48/status/1201441196461051905"
+							"uri": `https://twitter.com/A_AlmaJKT48/status/${payload.id_str}`
 						}
 					}
 				]
